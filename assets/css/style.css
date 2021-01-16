@@ -1,0 +1,164 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color:#b24f3f;
+  font-size: 16px;
+  line-height: 1;
+  background-color:#b24f3f;
+  background-image: url("../images/border.jpeg");
+ 
+}
+
+textarea{
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+.jumbotron {
+  text-align: center;
+  background-image: url("../images/schedule.jpg");
+  background-size:cover;
+  background-attachment: fixed;
+  border-radius: 0;
+  border-bottom: 3px solid black;
+}
+
+
+.organiser{
+  text-align: center;
+  border-radius: 20px;
+  border-color:#b24f3f;
+  background-image: url("../images/border.jpeg");
+  padding:1px;
+  border-style: solid;
+}
+
+
+.saved{
+  border-radius: 5px;
+  border-color:#b24f3f;
+  background-color: #b24f3f;
+  border-style: solid;
+  text-align:center;
+  display:inline-block;
+}
+.div{
+  height:inherit ;
+  width:inherit;
+}
+/*Style settings for the timeslot*/
+.timeslot, .timeText{
+  position: left;
+  background-color:#b2c8bd;
+  border-radius: 5px;
+  border-color:#b24f3f;
+  background-color: #b2c8bd;
+  border-style: groove;
+  text-align: center;
+  font-family: 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+  font-weight:900;
+  color: #000000;
+  font-size: 14px;
+}
+/*Style settings for the organiser div*/
+.organiser.container{
+  white-space: pre-wrap;
+  width:initial;
+  background-image: url("../images/border.jpeg");
+  padding: 10px;
+  margin:5px;
+  border-radius: 20px;
+  border-color: #b24f3f;
+  border-style: groove;
+  border-width: 10px;
+ float: inline-start;
+  margin-left:80px;
+}
+/*Style settings for the schedule element*/
+.schedule{
+  white-space: pre-wrap;
+  height:inherit;
+  width:inherit;
+  border-radius: 5px;
+  border-color: #b24f3f;
+  background-color: #b2c8bd;
+  border-style: groove;
+  text-align: center;
+  font-family: 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+  font-weight:900;
+  color: #000000;
+  font-size: 20px;
+
+}
+
+
+/* Defining style for past, present and future rows*/
+.past {
+  background-image: url("../images/past.jpeg");
+  color: white;
+}
+
+.present {
+  background-image: url("../images/present.jpg");
+  color: white;
+}
+
+.future {
+  background-image: url("../images/future.jpeg");
+  color: white;
+}
+
+/*Defining style for the save column of the grid*/
+.eventSave {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06AED5;
+  color: white;
+}
+/*Defining style for the saveBtn element*/
+.icon:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+.saveBtn{
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+
+}
+/*Adding the style settings for the modal box which will pop up when triggered by an onclick event*/
+/* Code for the pop up form that will not be used in this version.modal{
+  display: none; /*By default you want this hidden until event happens
+  position: fixed;
+  z-index: 1 ; /*When displayed you want this to be on top of webpage
+  margin-left: 200px;
+  margin-top: 200px;
+  float: right;
+  width:50%;
+  height:50%;
+  background-color:#b24f3f;
+ 
+}
+.modal-content{
+background-color: #b2c8bd;
+ margin: 15px;
+  padding:10px;
+  border:#165b65 ;
+  border-width:2px ;
+}
+.modal-close{
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  }
+  .modal-close.hover,
+  .modal-close.focus{
+  color:black;
+  text-decoration: none;
+  cursor: pointer;
+  object-position: top;
+  }*/
